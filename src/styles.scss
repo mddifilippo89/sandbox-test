@@ -1,0 +1,18 @@
+@use "igniteui-angular/theming" as *;
+@include core();
+/* autoprefixer grid:on */
+@include theme($default-palette);
+
+// CSS Reset, comment out if not required or using a different module
+// @import '~minireset.css/minireset';
+
+/* autoprefixer grid: on */
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    box-sizing: border-box;
+}
+
